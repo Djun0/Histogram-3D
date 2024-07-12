@@ -1,6 +1,6 @@
 using GLMakie
-function histogram3D(x1, y2, n)
-    x, y, z = peakss(x1, y2, n)
+function histogram3D(x, y, n)
+    x, y, z = peakss(x, y, n)
     δx = (x[2] - x[1]) / 2
     δy = (y[2] - y[1]) / 2
     fig = Figure(size=(2000, 1600), fontsize=30,px_per_unit = 2)
