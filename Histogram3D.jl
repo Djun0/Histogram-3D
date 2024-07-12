@@ -50,8 +50,8 @@ xcop=range(start=x_min, stop=x_max, length=length(y_coords))
     end
     return counts
 end
-function histogram3D(x, y, n)
-    x, y, z = peakss(x, y, n)
+function histogram3D(X, Y, n)
+    x, y, z = peakss(X, Y, n)
     δx = (x[2] - x[1]) / 2
     δy = (y[2] - y[1]) / 2
     fig = Figure(size=(1000, 1000), fontsize=30,px_per_unit = 2)
