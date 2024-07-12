@@ -27,3 +27,5 @@ display(A)
 The above code uses the Vegas algorithm to estimate the integral. The code returns a Struct containing the adaptive Vegas map(grid).
 Initialize random samples based on these grids.
 I use the histogram3D function to check if the distribution of the samples matches the shape of the function.
+
+Note: Samples must be normalized in the range [0;1]
