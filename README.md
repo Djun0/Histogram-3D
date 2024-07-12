@@ -19,7 +19,7 @@ global n = 100
 global sample1 = generate_random_between_intervals(v.adaptive_grid[:,1], n)
 global sample2 = generate_random_between_intervals(v.adaptive_grid[:,2], n)
 n=25
-global A=histogram_or_bars_in_3d((sample1),(sample2),n)
+global A=histogram3D((sample1),(sample2),n)
 display(A)
 ```
 
