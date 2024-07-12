@@ -29,3 +29,5 @@ Initialize random samples based on these grids.
 I use the histogram3D function to check if the distribution of the samples matches the shape of the function.
 
 Note: Samples must be normalized in the range [0;1]
+
+Vegas code is taken from https://github.com/ranjanan/MonteCarloIntegration.jl/blob/master/src/vegas.jl#L230
