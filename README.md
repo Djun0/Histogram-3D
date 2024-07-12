@@ -31,4 +31,4 @@ I use the histogram3D function to check if the distribution of the samples match
 Note: Samples must be normalized in the range [0;1]
 
 Vegas code is taken from https://github.com/ranjanan/MonteCarloIntegration.jl/blob/master/src/vegas.jl#L230
-![Mô tả hình ảnh](histogram_or_bars_in_3d.png)
+![Mô tả hình ảnh](output.png)
